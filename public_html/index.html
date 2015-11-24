@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CSCI 145 Final</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Password guesser</h2>
+        <p>This utility will take a 5 digit password and brute force guess it. This is a tool to show how insecure and easily short passwords are guessed.</p>
+        <br>
+        <form id="password" action="form_action.asp">
+            Password to Guess: <input type="text" name="pass" value="passw">
+        </form>
+        <button onclick="guessPass()">Guess</button>
+        <script src="Scripts/PasswordGuesser.js"></script>
+    </body>
+</html>
