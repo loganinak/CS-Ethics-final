@@ -8,3 +8,5 @@ The reason passwords containing only words are so easy to guess stems from the f
 This project not only contains a simple website that will crack your passwords and time how long it took, but also has a wealth of information in the wiki that will help you learn about how your passwords are handled by servers and how you can make your passwords more secure.
 <br><br>
 To use the brute force password guesser simply download the project as a zip (over on the right) and unzip it. run it by double clicking index.html!
+
+#Made by Logan Bonney
