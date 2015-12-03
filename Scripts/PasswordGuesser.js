@@ -1,5 +1,5 @@
 function guessPass(){
-    var alphabet = " abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+{}:<>?,./;'[]\|'",
+    var alphabet = " abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+{}:<>?,./;'[]\|'ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             password = document.getElementById("password");
     password = password.elements["pass"].value;
     
@@ -50,7 +50,7 @@ function guessPass(){
 
     if (found) {
         document.write("Your password is: " + guess);
-        document.write("<br>Found your password in: " + Math.round(time) + " ms");
+        document.write("<br>Found your password in: " + Math.round(time)/1000 + " s");
     } else {
         document.write("Could not guess your password");
     }
